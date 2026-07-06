@@ -1,3 +1,4 @@
 # Project Instructions
 
-- When adding papers to Zotero for this thesis project, place them in the Zotero collection `CSI-AoA-hidden-node`.
+- This is repo for thesis
+- DO NOT MODIFY PPTX, just read and output the text and ask me for modification
