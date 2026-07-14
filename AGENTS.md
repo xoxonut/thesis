@@ -40,3 +40,4 @@ Preserved project instructions:
 
 - This is repo for thesis
 - DO NOT MODIFY PPTX, just read and output the text and ask me for modification
+- When writing a git commit, run read-only checks such as `git status --short` and `git diff --stat` first. If the sandbox helper fails before Git can run, rerun those read-only checks outside the sandbox with approval before committing.
