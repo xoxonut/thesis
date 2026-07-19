@@ -2,17 +2,23 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+Reply in zh-tw
+Reply in zh-tw
+Reply in zh-tw
+
+
 ## Repository purpose
 
 This is a thesis-writing and presentation-preparation repository, not a software project. There is no build system, package manifest, or test suite. The thesis topic is AP-side hidden-node risk-aware RTS threshold control for Wi-Fi, using AoA estimation (MUSIC) from AP-side multi-antenna CSI.
 
 ## Project structure
 
-- `outline.md` — the authoritative chapter-by-chapter thesis outline (Introduction, Background, Related Work, AoA-Assisted Risk Scoring Design, RTS Threshold Adaptation Design, Implementation, Evaluation, Conclusion). Treat this as the source of truth for thesis structure and scope.
-- Root-level topic notes hold research material backing the outline, e.g. `MUSIC vs ESPRIT.md`, `Spatial Spectrum Estimation to MUSIC.md`, `paper for hidden node finding.md`.
-- `rts/cts paper.md` — RTS/CTS-related literature notes.
+- Root-level topic notes hold research material, e.g. `MUSIC vs ESPRIT.md`, `paper for hidden node finding.md`.
+- `rts/cts paper.md` — RTS/CTS-related literature notes (inside the `rts/` directory).
+- `slide storyline review.md` — storyline review of `thesis_new_template.pptx` with proposed slide-order fixes.
 - `bak/` — backups of previous artifacts (e.g. an earlier `thesis_filled.pptx`). Do not treat these as current.
-- `thesis_filled.pptx`, `thesis_new_template.pptx`, `template.pptx` — slide decks. See PPTX rule below.
+- `thesis_new_template.pptx`, `template.pptx` — slide decks. `thesis_new_template.pptx` is the current working deck. See PPTX rule below.
+- `outline.md` (the former chapter-by-chapter thesis outline) has been removed; there is currently no standalone outline file. The section structure of `thesis_new_template.pptx` (Introduction, Background, AoA-Assisted Dynamic RTS Threshold Adaptation, Evaluation, Conclusion) is the closest reference for thesis structure.
 
 Many notes are written in Traditional Chinese mixed with English technical terms; match the existing language of a note when editing it.
 
@@ -29,7 +35,7 @@ Many notes are written in Traditional Chinese mixed with English technical terms
 
 ## Validating changes
 
-There are no automated tests. Validate changes by reopening affected Markdown or presentation files and confirming the content is readable, complete, and technically consistent with `outline.md`. For any PPTX-adjacent work, verify slide count, visible text, and layout integrity before reporting completion (per the no-direct-modification rule above).
+There are no automated tests. Validate changes by reopening affected Markdown or presentation files and confirming the content is readable, complete, and technically consistent with the current deck structure. For any PPTX-adjacent work, verify slide count, visible text, and layout integrity before reporting completion (per the no-direct-modification rule above).
 
 ## Git workflow
 
