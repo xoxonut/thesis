@@ -1,4 +1,6 @@
-# Slide Storyline Review — thesis_new_template.pptx（26 頁）
+# Slide Storyline Review — historical thesis_new_template.pptx（26 頁）
+
+> 本 review 針對先前的 26 頁 deck；目前的 `thesis proposal 7_17.pptx` 有 29 頁，因此以下 slide numbers 不一定對應目前版本。
 
 審查目標：約 15 分鐘的英文 proposal 簡報。目標：故事線清楚，重意義、略細節。
 
